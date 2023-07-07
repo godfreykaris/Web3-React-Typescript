@@ -3,6 +3,8 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
 
+import API_KEYS from '../config.json'
+
 import { DAppProvider, Config, Goerli } from '@usedapp/core'
 import { getDefaultProvider } from 'ethers'
 
@@ -11,7 +13,7 @@ const config: Config = {
   readOnlyUrls: {
     [Goerli.chainId]: getDefaultProvider('goerli', {
       
-      alchemy: YOUR_ALCHEMY_API_KEY_HERE
+      alchemy: API_KEYS.ALCHEMY_API_KEY
 
   }),
   },
