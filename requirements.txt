@@ -1,7 +1,10 @@
 react_app@1.0.0 C:\Users\USER\Documents\Web3 + React + MetaMask\web3dapp
++-- @chakra-ui/icons@2.0.19
 +-- @chakra-ui/react@2.7.1
 +-- @emotion/react@11.11.1
 +-- @emotion/styled@11.11.0
++-- @fontsource/inter@5.0.4
++-- @metamask/jazzicon@2.0.0
 +-- @types/react-dom@18.2.6
 +-- @types/react@18.2.14
 +-- @usedapp/core@1.2.10
